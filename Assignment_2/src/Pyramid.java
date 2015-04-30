@@ -1,13 +1,8 @@
 /*
  * File: Pyramid.java
- * Name: 
- * Section Leader: 
+ * Name: Pyramid
+ * Section Leader: Josh Yan
  * ------------------
- * This file is the starter file for the Pyramid problem.
- * It includes definitions of the constants that match the
- * sample run in the assignment, but you should make sure
- * that changing these values causes the generated display
- * to change accordingly.
  */
 
 import acm.graphics.*;
