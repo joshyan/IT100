@@ -1,10 +1,10 @@
 /*
  * File: Breakout.java
  * -------------------
- * Name:
- * Section Leader:
+ * Name: Breakout.java
+ * Section Leader: Josh Yan
  * 
- * This file will eventually implement the game of Breakout.
+ * This file implement the game of Breakout.
  */
 
 import acm.graphics.*;
