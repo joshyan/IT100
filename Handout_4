@@ -1,0 +1,48 @@
+1. Adding commas to numeric strings    
+
+private String addCommasToNumericString(String digits) {
+    	int i = 0;
+    	String result = "";
+    	while(i < digits.length()) {
+    		if( i != 0 && (digits.length() - i) % 3 == 0) {
+    			result += ",";
+    		}
+    		result += digits.charAt(i);
+    		i++;
+    	}
+    	
+    	return result;
+}
+
+
+2. Deleting characters from a string
+
+	public String removeAllOccurrences(String str, char ch) {
+		int i = 0;
+		String result = "";
+		while(i < str.length()) {
+			if(str.charAt(i) != ch) {
+				result += str.charAt(i);
+			}
+			i++;
+		}
+		
+		return result;
+	}
+
+
+3.Heap/stack diagrams
+
+i, n, x and first r
+Rational r = new Rational(1, 2);
+The r is garbaged because no pointer point to it anymore.
+i, n, x is garbaged because the function raiseToPower is gone along with all the elements inside of it.
+
+
+4. Tracing method execution
+
+witch: x = 1, y = 1
+witch: x = 10, y = 0
+witch: x = 101, y = 1
+witch: x = 1011, y = 1
+ghost: x = 13, y = 1011
